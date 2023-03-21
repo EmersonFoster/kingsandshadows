@@ -1,0 +1,82 @@
+html {
+    max-width: 950px;
+    margin: auto;
+ font-size: 15px;
+ color: #12FF90;
+ 
+  }
+  body{
+    background-color:#4F4444;
+    padding: 20px;
+    max-width: 1280px;
+    height: 800px;
+    
+  }
+  main{
+    border: wheat;
+    border-style: solid;
+    margin: 0.6em;
+    padding: 10px;
+    text-align: center;
+    max-width: 1000px;
+    height: 700px;
+    
+    
+  }
+
+  main{
+    text-align: center;    
+    font-size: 30px;
+    }
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    
+}
+
+
+.quote{
+   
+    text-align: center;
+    margin: 12px;
+    color: white;
+    font-size: 15px;
+    
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: #525485;
+    padding: 10px;
+}
+
+/*Nav*/
+
+ul{
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #525485;
+    text-align: center;
+  }
+  
+  /* Display list items side by side */
+  ul li {
+    display: inline;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  
+  /* Add a color to all links inside the list */
+  ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px
+  }
+
+  a:hover {
+    background-color: #4F4444;
+    color: white;
+  }
