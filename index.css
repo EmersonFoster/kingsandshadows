@@ -34,7 +34,12 @@ h1{
     
 }
 
-h2,h3{
+h2{
+  text-align: center;
+  font-size: 20px;
+  margin: 2px;
+}
+h3,h4,h5{
   text-align: center;
   font-size: 20px;
 }
@@ -65,7 +70,6 @@ footer{
 ul{
     padding: 10px 16px;
     list-style: none;
-    background-color: #525485;
     text-align: center;
     
   }
@@ -90,4 +94,19 @@ ul{
     color: white;
   }
 
-  
+  header{
+    background-color:  #525485;
+    
+  }
+  .logo{
+    width: 95px;
+    float: left;
+    margin: 4px;
+  }
+
+  .placehoder{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
