@@ -39,9 +39,10 @@ h2{
   font-size: 20px;
   margin: 2px;
 }
-h3,h4,h5{
+h3,h4,h5,h6{
   text-align: center;
   font-size: 20px;
+  background-color: #525485;
 }
 
 p{
@@ -60,11 +61,18 @@ p{
 
 footer{
     text-align: center;
-    color: black;
+    
     background-color: #525485;
     padding: 10px;
-}
+    margin: 5px;
+  height: 90px;
+  width: 860px;
+  font-size: 20px;}
+.footer{
+  color: #12FF90;
+margin: 50px;
 
+}
 /*Nav*/
 
 ul{
@@ -104,9 +112,22 @@ ul{
     margin: 4px;
   }
 
-  .placehoder{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+ 
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .spolightp{
+    padding: 10px;
+    margin: 0;
+    
   }
