@@ -133,4 +133,20 @@ ul{
 
 
 
+  p{
+    text-align: center;
+
+
+ 
   
+}
+ol {
+  list-style:  none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  text-align: center;
+  color: white
+}
+
